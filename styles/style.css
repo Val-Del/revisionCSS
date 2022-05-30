@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #96c1f8;
+}
+
+header{
+    height: 100px;
+    /* Ecris à la suite */
+    
+}
+header h1 {
+    text-align: center;
+    color: white;
+}
+header img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: vogue 8s linear forwards;;
+}
+@keyframes vogue {
+    0% {
+        left: 0;
+    }
+    100%{
+        left: 50%;
+    }
+    
+}
+section{
+    background-image:url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: -20px;
+    /* Ecris à la suite */
+}
+
+footer{
+    height: 250px;
+    background-color: #5ee1e6;
+    /* Ecris à la suite */
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+}
+footer strong {
+    font-weight: 400;
+}
+#tresor {
+    cursor: grab;
+}
